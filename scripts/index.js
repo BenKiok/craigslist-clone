@@ -38,6 +38,7 @@ for (const section in linkSections) {
 
 function appendLinks(parentNode, val) {
   const ul = document.createElement('ul');
+  ul.classList.add('container', 'col-12');
 
   for (let i = 0; i < val; i++) {
     const li = document.createElement('li'),
@@ -46,12 +47,14 @@ function appendLinks(parentNode, val) {
     a.innerText = 'link';
     
     if (parentNode.classList.contains('discussion-forums')) {
-      a.classList.add('col-4');
+      li.classList.add('col-4');
     } else if (parentNode.classList.contains('community') ||
                parentNode.classList.contains('services') ||
                parentNode.classList.contains('for-sale') ||
                parentNode.classList.contains('gigs')) {
-      a.classList.add('col-6');
+      li.classList.add('col-6');
+    } else {
+      li.classList.add('col-12');
     }
 
     li.appendChild(a);
