@@ -1,0 +1,74 @@
+.about-craigslist {
+  width: 175px;
+  height: 820px;
+  background: #eee;
+  text-align: center;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.about-craigslist a:hover {
+  text-decoration: underline;
+}
+
+.about-craigslist > h2 a {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.about-craigslist > .create-posting {
+  margin-top: 5px;
+}
+
+.about-craigslist > .create-posting a {
+  font-size: 15.25px;
+  background: #ffffcc;
+}
+
+.about-craigslist > h4 {
+  margin-top: -12px;
+}
+
+.about-craigslist > h4 a {
+  font-size: 14px;
+}
+
+.about-craigslist > form {
+  margin-top: 15px;
+}
+
+.about-craigslist > form input[type='text'] {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 2px;
+  width: 168px;
+}
+
+.about-craigslist > .calendar {
+  margin-top: 15px;
+}
+
+.about-craigslist > .calendar a {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.about-craigslist .calendar-placeholder {
+  height: 97px;
+  width: 152px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.about-craigslist ul {
+  margin-top: 25px;
+}
+
+.about-craigslist li {
+  margin-top: 4px;
+}
+
+.about-craigslist ul a {
+  font-size: 14px;
+}
