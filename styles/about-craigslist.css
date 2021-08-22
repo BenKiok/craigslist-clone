@@ -22,7 +22,6 @@
 
 .about-craigslist > .create-posting a {
   font-size: 15.25px;
-  background: #ffffcc;
 }
 
 .about-craigslist > h4 {
@@ -54,11 +53,21 @@
   font-weight: bold;
 }
 
-.about-craigslist .calendar-placeholder {
+.about-craigslist table {
   height: 97px;
   width: 152px;
-  border: 1px solid black;
   margin: 0 auto;
+}
+
+.about-craigslist table th {
+  background: #ccc;
+  font-size: 13px;
+}
+
+.about-craigslist table td {
+  background: #fff;
+  border: 1px solid #ccc;
+  font-size: 13px;
 }
 
 .about-craigslist ul {

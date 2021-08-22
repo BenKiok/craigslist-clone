@@ -29,7 +29,7 @@ const linkSections = {
           node: document.querySelector('.gigs'),
           links: 8
         }
-      }
+      };
 
 for (const section in linkSections) {
   let div = linkSections[section];
