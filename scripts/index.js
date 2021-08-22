@@ -47,13 +47,11 @@ function appendLinks(parentNode, val) {
     
     if (parentNode.classList.contains('discussion-forums')) {
       a.classList.add('col-4');
-      console.log('added "col-4" class');
     } else if (parentNode.classList.contains('community') ||
                parentNode.classList.contains('services') ||
                parentNode.classList.contains('for-sale') ||
                parentNode.classList.contains('gigs')) {
       a.classList.add('col-6');
-      console.log('added "col-6" class');
     }
 
     li.appendChild(a);
