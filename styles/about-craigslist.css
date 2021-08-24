@@ -36,12 +36,20 @@
   margin-top: 15px;
 }
 
-.about-craigslist > form input[type='text'] {
+.about-craigslist > form input {
   border: 1px solid #ccc;
-  border-radius: 3px;
+  border-radius: 4px;
   font-size: 18px;
   padding: 2px;
   width: 168px;
+}
+
+.about-craigslist > form input:hover {
+  border-color: #aaa;
+}
+
+.about-craigslist > form input:focus {
+  border: 2px solid black;
 }
 
 .about-craigslist > .calendar {

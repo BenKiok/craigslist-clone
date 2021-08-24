@@ -1,0 +1,57 @@
+.directory {
+  margin: 0 15px;
+  gap: 18px;
+}
+
+.directory ul a {
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+}
+
+.directory ul a:hover {
+  background: #eee;
+  color: #663096;
+}
+
+.directory > section > section {
+  padding-bottom: 15px;
+}
+
+.heading {
+  background: #eee;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.main-heading {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 23px;
+  padding: 7px 0;
+}
+
+.sub-heading a {
+  font-weight: bold;
+}
+
+.column-1 {
+  width: 177px;
+  margin: 0 auto;
+}
+
+.column-2 {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.column-3 {
+  width: 118px;
+  margin: 0 auto;
+}
+
+.discussion-forums li a {
+  font-size: 11px;
+}
