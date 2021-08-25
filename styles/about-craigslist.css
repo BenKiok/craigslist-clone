@@ -1,3 +1,7 @@
+#highlight {
+  background: #ffffcc;
+}
+
 .about-craigslist {
   width: 175px;
   height: 820px;
@@ -22,6 +26,7 @@
 
 .about-craigslist > .create-posting a {
   font-size: 15.25px;
+  background: #ffffcc;
 }
 
 .about-craigslist > h4 {
